@@ -1,0 +1,17 @@
+car-resale-prediction/
+├── README.md                    # Project overview and instructions
+├── requirements.txt             # Dependencies
+├── .gitignore                   # Files to ignore in version control
+├── research/                    # Exploratory work and experiments
+│   ├── develop/                 # Work-in-progress notebooks
+│   └── deliver/                 # Finalized analysis notebooks
+├── production/                  # Production-ready code
+│   ├── src/                     # Source code
+│   │   ├── data/                # Data processing modules
+│   │   ├── models/              # Model definition and training
+│   │   ├── utils/               # Utility functions
+│   │   └── api/                 # API implementation
+│   ├── models/                  # Saved model files
+│   ├── Dockerfile               # For containerization
+│   └── requirements.txt         # Production dependencies
+└── data/                        # Dataset storage (add to .gitignore for large files)
